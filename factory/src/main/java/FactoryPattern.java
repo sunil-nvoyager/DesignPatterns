@@ -6,7 +6,9 @@ import product_client_impl.PizzaStore;
  */
 public class FactoryPattern {
     public static void main(String args[]) {
+        
         PizzaStore pizzaStore =  new NYPizzaStore();
         pizzaStore.orderPizza("cheese");
+        
     }
 }
