@@ -1,5 +1,26 @@
 public class DecoratorDesignMain {
     
+    /**
+     * The main method serves as the entry point for the application.
+     * It demonstrates the creation of two different types of pizzas,
+     * applying various toppings to each, and then prints the total cost
+     * of each pizza to the console.
+     *
+     * <p>
+     * This method creates a Margherita pizza and adds extra cheese and
+     * mushroom toppings to it. It also creates a Farmhouse pizza and
+     * adds multiple mushroom toppings and extra cheese. Finally, it
+     * calculates and displays the cost of both pizzas.
+     * </p>
+     *
+     * @param args Command line arguments passed to the application.
+     *              This parameter is not used in this method.
+     *
+     * @throws NullPointerException if any of the pizza or topping objects
+     *                               are not properly initialized.
+     * @throws IllegalArgumentException if an invalid topping is applied
+     *                                   to a pizza.
+     */
     public static void main(String[] args) {
         
         BasePizza pizza1 = new MargheritaPizza();
