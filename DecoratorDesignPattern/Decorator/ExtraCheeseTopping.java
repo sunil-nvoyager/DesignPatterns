@@ -6,8 +6,6 @@ public class ExtraCheeseTopping extends ToppingDecorator {
 
     @Override
     public int cost() {
-        
         return pizza.cost() + 25;
-        
     }
 }
